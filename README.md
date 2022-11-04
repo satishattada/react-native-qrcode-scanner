@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-native-qrcode-scanner.svg)](https://badge.fury.io/js/react-native-qrcode-scanner) [![Backers on Open Collective](https://opencollective.com/react-native-qrcode-scanner/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-qrcode-scanner/sponsors/badge.svg)](#sponsors)
 
-A QR code scanner component for React Native built on top of [react-native-camera by Lochlan Wansbrough](https://github.com/lwansbrough/react-native-camera)
+A QR code scanner component for React Native built on top of [react-native-infy-camera by Lochlan Wansbrough](https://github.com/lwansbrough/react-native-infy-camera)
 
 Please note, this will also function as a generic barcode scanner by the virtue of the above module supporting barcode scanning, however, this module was initially built as a QR code scanner.
 
@@ -40,29 +40,29 @@ With Android 7 and higher you need to add the "Vibration" permission to your And
 ```
 <uses-permission android:name="android.permission.VIBRATE"/>
 ```
-You need to add the "missingDimensionStrategy" config for the 'react-native-camera' setting  to 'general', this should be found in your `android/app/build.gradle` add the following:
+You need to add the "missingDimensionStrategy" config for the 'react-native-infy-camera' setting  to 'general', this should be found in your `android/app/build.gradle` add the following:
 ```
 android {
   ...
   defaultConfig {
     ...
-    missingDimensionStrategy 'react-native-camera', 'general' <-- insert this line
+    missingDimensionStrategy 'react-native-infy-camera', 'general' <-- insert this line
   }
 }
 ```
 
-#### react-native-camera
+#### react-native-infy-camera
 
-[react-native-camera](https://github.com/lwansbrough/react-native-camera) is a dependency for this package that you'll need to add to your project. To install, run the following commands:
+[react-native-infy-camera](https://github.com/lwansbrough/react-native-infy-camera) is a dependency for this package that you'll need to add to your project. To install, run the following commands:
 
-1. `npm install react-native-camera --save`
-2. `react-native link react-native-camera`
+1. `npm install react-native-infy-camera --save`
+2. `react-native link react-native-infy-camera`
 
 #### New Version/Migration
 
-If using an older version of this module with RCTCamera you will need to follow the docs [here](https://github.com/react-native-community/react-native-camera/blob/master/docs/migration.md) to move from the old RCTCamera to the new RNCamera. You will then need to install it as above.
+If using an older version of this module with RCTCamera you will need to follow the docs [here](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/migration.md) to move from the old RCTCamera to the new RNCamera. You will then need to install it as above.
 
-**Versions of this library > 0.0.30 will not support react-native-camera versions less than 1.0.0.**
+**Versions of this library > 0.0.30 will not support react-native-infy-camera versions less than 1.0.0.**
 
 ### To install and start using react-native-qrcode-scanner:
 
@@ -105,7 +105,7 @@ import {
 } from 'react-native';
 
 import QRCodeScanner from 'react-native-qrcode-scanner';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-infy-camera';
 
 class ScanScreen extends Component {
   onSuccess = e => {
@@ -224,7 +224,7 @@ default: `RNCamera.Constants.FlashMode.auto`
 
 **Flash modes**
 
-FYI: [react-native-camera/flashMode](https://github.com/react-native-community/react-native-camera/blob/master/docs/RNCamera.md#flashmode)
+FYI: [react-native-infy-camera/flashMode](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/RNCamera.md#flashmode)
 
 - `RNCamera.Constants.FlashMode.off` turns it off.
 - `RNCamera.Constants.FlashMode.on` means camera will use flash in all photos taken.
@@ -385,6 +385,6 @@ See [LICENSE.md](LICENSE.md)
 
 ## Thanks
 
-Thanks to [Lochlan Wansbrough](https://github.com/lwansbrough) for the [react-native-camera module](https://github.com/lwansbrough/react-native-camera) which provided me with an awesome example of how to set up this module.
+Thanks to [Lochlan Wansbrough](https://github.com/lwansbrough) for the [react-native-infy-camera module](https://github.com/lwansbrough/react-native-infy-camera) which provided me with an awesome example of how to set up this module.
 
 This QR code scanner was inspired by the QR code scanner within [Whatsapp](https://www.whatsapp.com/).

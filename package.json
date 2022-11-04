@@ -1,6 +1,6 @@
 {
-  "name": "react-native-qrcode-scanner",
-  "version": "1.5.5",
+  "name": "react-native-infy-qrcode-scanner",
+  "version": "1.0.0",
   "description": "A QR code scanner for React Native.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moaazsidat/react-native-qrcode-scanner.git"
+    "url": "https://github.com/satishattada/react-native-qrcode-scanner.git"
   },
   "keywords": [
     "react-native",
@@ -20,10 +20,10 @@
     "scanner",
     "barcode"
   ],
-  "author": "Moaaz Sidat",
+  "author": "Satish",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moaazsidat/react-native-qrcode-scanner/issues"
+    "url": "https://github.com/satishattada/react-native-qrcode-scanner.git"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
@@ -39,9 +39,9 @@
     "prettier": "^1.12.1"
   },
   "peerDependencies": {
-    "react-native-camera": ">=1.0.2"
+    "react-native-infy-camera": ">=1.0.0"
   },
-  "homepage": "https://github.com/moaazsidat/react-native-qrcode-scanner#readme",
+  "homepage": "https://github.com/satishattada/react-native-qrcode-scanner.git",
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",

@@ -1,10 +1,10 @@
-(this document has been taking from the react-native-camera library [here](https://github.com/react-native-community/react-native-camera/blob/master/docs/migration.md))
+(this document has been taking from the react-native-infy-camera library [here](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/migration.md))
 
 # Migrating from RCTCamera to RNCamera
 
 ## Project Integration
 
-Please follow the [RNCamera doc](https://github.com/react-native-community/react-native-camera/blob/master/docs/RNCamera.md) installation guide to install the face detection frameworks on both platforms.
+Please follow the [RNCamera doc](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/RNCamera.md) installation guide to install the face detection frameworks on both platforms.
 
 ### iOS
 
@@ -28,9 +28,9 @@ import org.reactnative.camera.RNCameraPackage;
 
 2. Inside the getPackages() methods change `new RCTCameraPackage()` to `new RNCameraPackage()`.
 
-3. On `android/app/build.gradle`, change the line: `compile (project(':react-native-camera'))` to:
+3. On `android/app/build.gradle`, change the line: `compile (project(':react-native-infy-camera'))` to:
 ```gradle
-compile (project(':react-native-camera')) {
+compile (project(':react-native-infy-camera')) {
   exclude group: "com.google.android.gms"
 }
 compile ("com.google.android.gms:play-services-vision:10.2.0") {
@@ -51,7 +51,7 @@ allprojects {
 
 ### imports
 
-Instead of importing `Camera`, now, you should import `{ RNCamera }` from `react-native-camera`.
+Instead of importing `Camera`, now, you should import `{ RNCamera }` from `react-native-infy-camera`.
 
 ### No `captureMode` prop
 
@@ -63,7 +63,7 @@ On RNCamera you do not need to specify `captureMode`. The RNCamera, in any state
 
 Let's say you have a component with a RCTCamera taking a photo:
 ```jsx
-import Camera from 'react-native-camera';
+import Camera from 'react-native-infy-camera';
 
 class TakePicture extends Component {
 
@@ -104,7 +104,7 @@ class TakePicture extends Component {
 
 You should change this to:
 ```jsx
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-infy-camera';
 
 class TakePicture extends Component {
 
@@ -149,4 +149,4 @@ In RCTCamera, there was `flashMode` and `torchMode` prop. In RNCamera, these are
 
 ### Other differences
 
-Take a look into the [RCTCamera doc](https://github.com/react-native-community/react-native-camera/blob/master/docs/RCTCamera.md) and the [RNCamera doc](https://github.com/react-native-community/react-native-camera/blob/master/docs/RNCamera.md) to see more differences.
+Take a look into the [RCTCamera doc](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/RCTCamera.md) and the [RNCamera doc](https://github.com/react-native-community/react-native-infy-camera/blob/master/docs/RNCamera.md) to see more differences.
