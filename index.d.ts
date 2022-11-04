@@ -1,4 +1,4 @@
-/* Type definitions for react-native-qrcode-scanner 1.5.0
+/* Type definitions for react-native-infy-qrcode-scanner 1.5.0
  * Definitions by: Jan Hesters <https://github.com/janhesters/>
  * Updated by: Abdullah Hilson <https://github.com/abumalick/>
  * If you modify this file, put your GitHub info here as well (for easy contacting purposes)

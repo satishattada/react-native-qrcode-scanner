@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/satishattada/react-native-qrcode-scanner.git"
+    "url": "https://github.com/satishattada/react-native-infy-qrcode-scanner.git"
   },
   "keywords": [
     "react-native",
@@ -23,11 +23,12 @@
   "author": "Satish",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/satishattada/react-native-qrcode-scanner.git"
+    "url": "https://github.com/satishattada/react-native-infy-qrcode-scanner.git"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-native-permissions": "^2.0.2"
+    "react-native-permissions": "^2.0.2",
+    "react-native-infy-camera": "1.0.0"
   },
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
@@ -39,9 +40,8 @@
     "prettier": "^1.12.1"
   },
   "peerDependencies": {
-    "react-native-infy-camera": ">=1.0.0"
   },
-  "homepage": "https://github.com/satishattada/react-native-qrcode-scanner.git",
+  "homepage": "https://github.com/satishattada/react-native-infy-qrcode-scanner.git",
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -59,6 +59,6 @@
   },
   "funding": {
     "type": "opencollective",
-    "url": "https://opencollective.com/react-native-qrcode-scanner"
+    "url": "https://opencollective.com/react-native-infy-qrcode-scanner"
   }
 }
