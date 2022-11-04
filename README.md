@@ -299,7 +299,6 @@ propType: `object`
 
 Properties to be passed to the `Camera` component.
 
-
 ## License
 
 See [LICENSE.md](LICENSE.md)
