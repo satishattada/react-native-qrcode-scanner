@@ -299,20 +299,7 @@ propType: `object`
 
 Properties to be passed to the `Camera` component.
 
-
-## Contributors
-
-This project exists thanks to all the people who contribute. We're immensely gratetful to everyone who has taken the time to submit pull requests, spent time debugging or filing issues.
-
-<a href="https://github.com/satishattada/react-native-qrcode-scanner/graphs/contributors">
-Contributers</a>
-
 ## License
 
 See [LICENSE.md](LICENSE.md)
 
-## Thanks
-
-Thanks to [Satish Attada](https://github.com/satishattada) for the [react-native-infy-camera module](https://github.com/satishattada/react-native-camera) which provided me with an best example of how to set up this module.
-
-This QR code scanner was inspired by the QR code scanner developed by [Lochlan Wansbrough](https://github.com/lwansbrough).
