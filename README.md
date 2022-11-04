@@ -10,9 +10,9 @@ This prototype will used as barcode scanner and was built for QR code scanning
 
 ### Requirements
 
-#### Android 10
+#### Android 8
 
-With Android 10 and higher you should add "Vibration" permission on your AndroidManifest.xml of your project. This should be found in your `android/app/src/main/AndroidManifest.xml` Add the following:
+With Android 8 and higher you should add "Vibration" permission on your AndroidManifest.xml of your project. This should be found in your `android/app/src/main/AndroidManifest.xml` Add the following:
 
 ```
 <uses-permission android:name="android.permission.VIBRATE"/>
